@@ -14,9 +14,10 @@ body {
 	background-color: #FF6000;
 	text-decoration: none;
 	padding: 5px 15px;
-	color: #dddddd;
+	color: #fff;
 	margin-top: 10px;
     text-transform: capitalize;
+    font-style: italic;
 }
 
 /* Header CSS */
@@ -118,12 +119,13 @@ main {
     color: #DDDDDD;
 } 
 .service p {
-    color: #DDDDDD;
+    color: #040909;
 }
 /* About CSS */
 
 #about {
-    margin-top: 5%;
+    margin:5% 0;
+    overflow: hidden;
 }
 #about h2 {
     text-transform: capitalize;
@@ -159,5 +161,19 @@ main {
 .menu-item li a {
     text-decoration: none;
     text-transform: capitalize;
-    color: #000000;
+    color: #040909;
+}
+#footer {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #008083;
+}
+.footer-text {
+    text-align: center;
+    color: #fff;
+}
+.footer-text h2 {
+    font-size: 18px;
+    padding: 10px 0;
+    text-transform: capitalize;
 }
