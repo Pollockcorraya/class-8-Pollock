@@ -72,6 +72,33 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
+}
+.banner-text {
+    width: 50%;
+    margin: 5% auto;
+    text-align: center;
+    text-transform: capitalize;
+}
+.banner-text h1 {
+    font-family: 'Crete Round', serif;
+    font-size: 40px;
+    font-style: italic;
+}
+.banner-text span {
+    font-size: 60px;
+}
+.btn-banner {
+    padding: 15px 20px;
+    border-radius: 30px;
+    font-style: normal;
+    margin-top: 35px;
+    transition: 0.5s;
+}
+.btn-banner:hover {
+    background-color: #DDDDDD;
+    color: #FF6000;
+
 }
 /* Main CSS */
 main {
@@ -83,7 +110,7 @@ main {
 .service  {
     overflow: hidden;
 }
-.service-text h1 {
+.service-text h2 {
     text-transform: capitalize;
     font-family: 'Crete Round', serif;
     font-size: 30px;
@@ -110,7 +137,7 @@ main {
 .service-item-3 img {
     width: 100%;
 }
-.service h2 {
+.service-item h2, .service-item-3 h2 {
     text-transform: capitalize;
     font-family: 'Crete Round', serif;
     font-size: 25px;
